@@ -1,0 +1,45 @@
+@media (max-width: 620px) {
+
+    .container {
+        width: 620px;
+    }
+    
+    .card {
+        height: 611px;
+        width: 343px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .card div {
+        width: 295px;
+    }
+    
+    .card a {
+        width: 295px;
+    }
+    
+    }
+
+@media (max-width: 375px) {
+
+    .container {
+        width: 375px;
+    }
+    
+    .card {
+        height: 611px;
+        width: 343px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .card div {
+        width: 295px;
+    }
+    
+    .card a {
+        width: 295px;
+    }
+    
+    }
