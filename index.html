@@ -5,26 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card Product</title>
+    <title>Product preview card component</title>
     <link rel="stylesheet" href="Src/style/style.css">
     <link rel="stylesheet" href="Src/style/reset.css">
     <link rel="stylesheet" href="Src/style/variaveis.css">
     <link rel="stylesheet" href="Src/style/media-query.css">
 </head>
-
 <body>
     <main class="container">
-        <div class="card">
-            <picture class="image">
-                <source srcset="Src/imagens/image-product-mobile.jpg" media="(max-width: 620px)">
-                <source srcset="Src/imagens/image-product-mobile.jpg" media="(max-width: 375px)">
-                <img src="Src/imagens/image-product-desktop.jpg" alt="Perfume Chanel Gabrielle">
-            </picture>
-            <div class="title">PERFUME</div>
-            <div class="perfume-name">Gabrielle Essence Eau De Parfum</div>
-            <div class="perfume-explication">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</div>
-            <div class="price">$149.99 <span>$169.99</span></div>
-            <a class="cart-button"><img src="Src/imagens/Cart.svg" alt="carrinho de compras">Add to Cart</a>
+        <div class="content">
+            <div class="image">
+                <picture>
+                    <source srcset="Src/imagens/image-product-mobile.jpg" media="(max-width: 620px)">
+                    <img src="Src/imagens/image-product-desktop.jpg" alt="Perfume Chanel Gabrielle">
+                </picture>
+            </div>
+            <div class="text-price">
+                <h1 class="title">PERFUME</h1>
+                <p class="perfume-name">Gabrielle Essence Eau De Parfum</p>
+                <p class="perfume-explanation">A floral, solar and voluptuous interpretation composed by Olivier
+                    Polge, Perfumer-Creator for the House of CHANEL.</p>
+                <p class="price">$149.99 <span>$169.99</span></p>
+                <a class="cart-button"><img src="Src/imagens/Cart.svg" alt="carrinho de compras">Add to Cart</a>
+            </div>
         </div>
     </main>
 </body>
